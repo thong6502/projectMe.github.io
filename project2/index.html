@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Thời Tiết</title>
+</head>
+  <div class="container">
+    <div class="select-box">
+      <i class="fa-solid fa-location-dot"></i>
+      <select id="citys">
+        <option value="an giang">an giang</option>
+        <option value="vũng tàu">vũng tàu</option>
+        <option value="bắc giang">bắc giang</option>
+        <option value="bắc cạn">bắc cạn</option>
+        <option value="bạc liêu">bạc liêu</option>
+        <option value="bắc ninh">bắc ninh</option>
+        <option value="bến tre">bến tre</option>
+        <option value="bình định">bình định</option>
+        <option value="bình dương">bình dương</option>
+        <option value="bình phước">bình phước</option>
+        <option value="bình thuận">bình thuận</option>
+        <option value="cà mau">cà mau</option>
+        <option value="cần thơ">cần thơ</option>
+        <option value="cao bằng">cao bằng</option>
+        <option value="đà nẵng">đà nẵng</option>
+        <option value="dak lak">dak lak</option>
+        <option value="dak nông">dak nông</option>
+        <option value="điện biên">điện biên</option>
+        <option value="đồng nai">đồng nai</option>
+        <option value="đồng tháp">đồng tháp</option>
+        <option value="gia lai">gia lai</option>
+        <option value="hà giang">hà giang</option>
+        <option value="hà nam">hà nam</option>
+        <option value="hà nội" selected>hà nội</option>
+        <option value="hà tỉnh">hà tỉnh</option>
+        <option value="hải dương">hải dương</option>
+        <option value="hải phòng">hải phòng</option>
+        <option value="hậu giang">hậu giang</option>
+        <option value="thành phố hồ chí minh">TP. hồ chí minh</option>
+        <option value="hòa bình">hòa bình</option>
+        <option value="hưng yên">hưng yên</option>
+        <option value="khánh hòa">khánh hòa</option>
+        <option value="kiên giang">kiên giang</option>
+        <option value="kom tum">kom tum</option>
+        <option value="lai châu">lai châu</option>
+        <option value="lâm đồng">lâm đồng</option>
+        <option value="lạng sơn">lạng sơn</option>
+        <option value="lào cai">lào cai</option>
+        <option value="long an">long an</option>
+        <option value="nam định">nam định</option>
+        <option value="nghệ an">nghệ an</option>
+        <option value="ninh bình">ninh bình</option>
+        <option value="ninh thuận">ninh thuận</option>
+        <option value="phú thọ">phú thọ</option>
+        <option value="phú yên">phú yên</option>
+        <option value="quảng bình">quảng bình</option>
+        <option value="quảng nam">quảng nam</option>
+        <option value="quảng ngãi">quảng ngãi</option>
+        <option value="quảng ninh">quảng ninh</option>
+        <option value="quảng trị">quảng trị</option>
+        <option value="sóc trăng">sóc trăng</option>
+        <option value="sơn la">sơn la</option>
+        <option value="tây ninh">tây ninh</option>
+        <option value="thái bình">thái bình</option>
+        <option value="thái nguyên">thái nguyên</option>
+        <option value="thanh hóa">thanh hóa</option>
+        <option value="huế">thừa thiên - huế</option>
+        <option value="tiền giang">tiền giang</option>
+        <option value="trà vinh">trà vinh</option>
+        <option value="tuyên quang">tuyên quang</option>
+        <option value="vĩnh long">vĩnh long</option>
+        <option value="vĩnh phúc">vĩnh phúc</option>
+        <option value="yên bái">yên bái</option>
+      </select>
+    </div>
+
+    <div class="not-found">
+      <img src="./images/404.png">
+      <p>Oops! Invalid location :/</p>
+    </div>
+      <div class="weather-box">
+        <img src="">
+        <p class="temperature"></p>
+        <p class="description"></p>
+      </div>
+      
+      <div class="weather-details">
+        <div class="humidity">
+          <i class="fa-solid fa-water"></i>
+          <div class="text">
+            <span></span>
+            <p>Độ Ẩm</p>
+          </div>
+        </div>
+        <div class="wind">
+          <i class="fa-solid fa-wind"></i>
+          <div class="text">
+            <span></span>
+            <p>Tốc Độ Gió</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
